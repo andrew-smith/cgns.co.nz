@@ -1,0 +1,8 @@
+{
+    "name": "cgns.co.nz",
+    "version": "0.0.1",
+    "devDependencies": {
+        "grunt": "0.4.x",
+        "grunt-contrib-jade": "0.11.x"
+    }
+}
