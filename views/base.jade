@@ -22,4 +22,48 @@ html(lang="en")
     
     body
     
+        .navbar.navbar-default.navbar-fixed-top(role='navigation')
+            .container
+                .navbar-header
+                    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                        span.sr-only Toggle navigation
+                    a.navbar-brand(href='#') Coastguard North Shore
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li.active
+                            a(href='#') Gallery
+                        li
+                            a(href='#') Membership
+                        li.dropdown
+                            a.dropdown-toggle(href='#', data-toggle='dropdown') Resources
+                                b.caret
+                            ul.dropdown-menu
+                                li
+                                    a(href='#') Education
+                                li
+                                    a(href='#') Weather / Tide
+                                li
+                                    a(href='#') Boating Tips
+                                li
+                                    a(href='#') Links
+                        li
+                            a(href='#') Contact Us
+                    ul.nav.navbar-nav.navbar-right
+                        li
+                            a(href='#') Crew Login
+    
+        .container
+            .jumbotron
+                h1 Coastguard North Shore
+                p This is the example website
+                p More content to follow
+                
+                
+                
+                
+                
+        script(src='/js/jquery.min.js')
+        script(src='/js/bootstrap.min.js')
+        
+        
         block content
